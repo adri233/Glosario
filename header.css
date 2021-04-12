@@ -1,0 +1,52 @@
+
+h1 {
+    margin: 0;
+    padding: 0;
+    font-family: 'Playfair Display', serif;
+}
+
+:root {
+   background:  #FA8072;
+   background:  #F08080;
+   background:  #CD5C5C;
+   background:  #E9967A;
+   background:  #FFA07A;
+}
+header{
+    width: 100;
+    height: 60px;
+    box-sizing: border-box;
+    
+    display: flex:#FFA07A;
+
+    flex-direction: row;
+    justify-content: space-between;
+    
+    background-color: #FAACA8;
+background-image: linear-gradient(19deg, #FAACA8 0%, #DDD6F3 100%);
+}
+
+logo{
+    color:#fff;
+}
+
+nav{
+    list-style: none;
+    width: 400px;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+nav li{
+    color:#fff;    
+}
+
+.leyenda {
+    
+}
+
+h2 {
+    la comunicacion visual, el significado de las cosas debe ser construido.
+}
