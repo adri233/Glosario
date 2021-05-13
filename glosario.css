@@ -1,25 +1,32 @@
-
-*{
+{
     margin: 0;
     padding: 0;
     font-family: 'Playfair Display', serif;
 }
 
-
-
-inicio{ 
-    color:dimgrey;
-    font-size:50px
-    
-    
-    
 }
 
-.titulo{ 
-    font-size: 30px;
-    text-align: center;
-    color: antiquewhite;
-   
+section{
+    width: 1000px;
+    margin: 30px auto;
+}
+
+
+/*----------SECCIÓN 1----------*/
+
+
+.tituloI{
+    color: #000000;
+    font-size: 60px;
+    text-align: center; 
+    margin: 30px 0px 0px 0px;
+}
+
+.texto1{
+    font-size: 18px;
+}
+
+
 
 }
   
@@ -40,12 +47,10 @@ inicio{
     margin: 10px 0px 0px 20px:
            }
 .p_head{ 
-    color:#16A085
     margin:10px 0px 5px 0px;
     
            }
 .p_body{
-    color:#9B59B6;
     margin:10px 0px 5px 0px;
            }
 *{
@@ -62,7 +67,7 @@ section{
 
 /*-------------SECCIÓN 1*/
 .TITULO{
-    color:black;
+    color:#000000b;
     Font-size:30px;   
     margin: 10px 0px 0px 0px;
 }
@@ -74,7 +79,7 @@ section{
     
 }
 .tabla_tipo_etiquetas{
-    border: 1px solid black;
+    border: 1px solid #000000;
 }
 .filaTitulo{
     background-color:#182126;
@@ -83,7 +88,7 @@ section{
     padding: 5px 0px 5px 0px;
     font-size: 25px;
     text-align:cursive;
-    color:white;
+    color:#fff;;
 }
 .descripcion_tipo_etiquetas td{
     font-size:15px;
@@ -99,7 +104,7 @@ section{
     color:#182126;
 }
 .ls_tipo_etiqueta{
-    color:black;
+    color:#000000;
     list-style: none;
     margin: 0px 0px 0px 50px;
 }
@@ -120,4 +125,48 @@ section{
 
 .txt_etiqueta{
     width: 300px;
+}
+.S5{
+    box-sizing: 30px;
+}
+
+.propiedades_tablas{
+    margin: auto;
+    border-collapse: collapse;
+}
+
+tr,td{
+    border: 2px solid #000000;
+}
+
+.celdas3{
+    background-color:#BC8F8F;
+    font-size: 25px;
+    color: #FAFAFA;
+    text-align: center;
+}
+
+.colores_lista{
+    margin: auto;
+    color: #000000;
+}
+
+
+/*----------SECCIÓN 6----------*/
+
+
+.S6{
+    box-sizing: 30px;
+}
+
+.mdc{
+    color: #000000;
+    font-size: 28px;
+    text-align: center;
+}
+
+.recurso2{
+    width: 500px;
+    height: 350px;
+    margin: 15px 0px 0px 275px;
 }
