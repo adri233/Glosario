@@ -1,16 +1,8 @@
-
 *{
     margin: 0px;
     padding: 0px: 'Playfair Display', serif;
 }
 
-:root {
-   background:  #FA8072;
-   background:  #F08080;
-   background:  #CD5C5C;
-   background:  #E9967A;
-   background:  #FFA07A;
-}
 header{
      width: 100%;
     height: 60px;
@@ -21,7 +13,14 @@ background-image: linear-gradient(180deg, #A9C9FF 0%, #FFBBEC 100%);
     flex-direction: row;
     justify-content: space-between;
 }
-    
+
+ :root {
+   background:  #FA8072;
+   background:  #F08080;
+   background:  #CD5C5C;
+   background:  #E9967A;
+   background:  #FFA07A;
+}   
 
 
 logo{
@@ -66,5 +65,6 @@ nav li{
 background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,251,1) 100%);
     
 }
+
 
 
