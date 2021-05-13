@@ -1,14 +1,16 @@
-banner_index{
+.banner_index{
     width: 100%;
     height: 550px;
     padding-top: 200px;
-    
     background-image:url(../img/imgbanener.jpg);
+    background-repeat: no-repeat;
     background-size: cover;
 }
-leyenda{
+.leyenda{
     text-align: center;
-    font-size: 40px;
+    font-size: 50px;
+    color:#fff; 
+    font-family: monospace;
 }
 
 .btn_banner{
@@ -22,7 +24,8 @@ leyenda{
     border-radius: 5px;
     margin-top: 4px;
      background: rgb(63,94,251);
-background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,251,1) 100%);
+    color:#fff;  
+background-image: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,251,1) 100%);
     
    
 }
@@ -30,11 +33,12 @@ background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,251,1) 100
 .btn_banner:hover{
     width: 100px;
     transition: 0.3s;
+    border-radius: 20px;
     background: rgb(63,94,251);
 background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,251,1) 100%);
     
 }
 h2{
-    color: white;
+    color:#fff;
    
 }
