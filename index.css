@@ -3,7 +3,6 @@
     height: 550px;
     padding-top: 200px;
     background-image:url(../img/imgbanener.jpg);
-    background-repeat: no-repeat;
     background-size: cover;
 }
 .leyenda{
@@ -38,7 +37,4 @@ background-image: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,251,
 background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,251,1) 100%);
     
 }
-h2{
-    color:#fff;
-   
-}
+
