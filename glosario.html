@@ -26,6 +26,8 @@
     
     <section class="sec_2">
         <table class="tabla_tipo_etiquetas">
+        
+                  <tr>
             <tr class="filaTitulo">
                 <td colspan="2" class="txt_titulo">Estructura de Etiquetas</td>
             </tr>
@@ -298,8 +300,7 @@
                           
                       <section class="section_texto">
         <h2 class="titulo_categoria"> 📌ETIQUETAS DIRIGIDAS A OBJETOS</h2>
-        <ul class="ls_tipo_etiqueta">
-            <li>
+           <li>
                 <h2 class="titulo_elemento_categoria">📋Estructuras:</h2>
                 <p class="descripcion_elemento">
                     Las etiquetas de estructura son de tipo objeto ya que pueden ser redimensionadas tanto en ancho y en alto estas etiquetas también son conocidas como cajas.
@@ -390,7 +391,7 @@
             </li>
                           </ul>
                         <li>
-                <h2 class="titulo_elemento_categoria">📋Imagenes</h2>
+                <h2 class="titulo_elemento_categoria">📋IMAGENES</h2>
                 <p class="descripcion_elemento"> 
                     sirve para insertar recursos visuales.
                             </p>
@@ -402,27 +403,214 @@
                             </td>
                           </li>
                    
-                        <section class="section_texto">
-        <h2 class="titulo_categoria"> 📌LISTADO PROPIEDADES CSS DIRIGIDAS AL TEXTO</h2>
-           
-        <td class="txt_etiqueta">
-            <li>color:#ffffff;</li>
-            <li>font-size:1px;</li>
-            <li>text_align:center;</li>
-            <li>font-style:italic;</li>
-           
-                            </td>
-                          </section>
-                    
-                            <section class="section_texto">
-        <h2 class="titulo_categoria"> 📌LISTADO PROPIEDADES CSS DIRIGIDAS A OBJETOS</h2>
-                 <td class="txt_etiqueta">
-                     <li>with:100px;</li>
-                     <li>Height:250px;</li>
-                     <li>border:10px double;</li>
-                     <li>border-radius:30px;</li>
+                      
                      <section class="section_texto">
-        <h2 class="titulo_categoria"> 📌LISTADO PROPIEDADES CSS DIRIGIDAS A OBJETOS</h2>
+        <h2 class="titulo_categoria"> 📌PROPIEDADES CSS</h2>
+             
+        <h2>
+          PROPIEDADES CSS DIRIGIDAS A TEXTO
+        </h2>
+           
+            <p class="texto2">Las propiedades de texto son las que nos permiten controlar el texto como bloque.</p>
+            
+              <table border="1" class="propiedades_tablas">
+                  <tr class="celdas3">
+                      <td>Propiedad</td>
+                      <td>Descripción</td>
+                      <td>valores</td>
+                  </tr>
+                  <tr>
+                      <td>text-aling</td>
+                      <td>Alineamiento del texto</td>
+                      <td>left | right | center | justify</td>
+                  </tr>
+                  <tr>
+                      <td>text-decoration</td>
+                      <td>Indica el tipo de subrayado (decoración)</td>
+                      <td>none | underline | overline | line-through</td>
+                  </tr>
+                   <tr>
+                      <td>text-transform</td>
+                      <td>Transformación a mayúsculas / minúsculas</td>
+                      <td>capitalize | uppercase | lowercase | none</td>
+                  </tr>
+                  <tr>
+                      <td>text-indent</td>
+                      <td>Desplazamiento de la primera línea del texto</td>
+                      <td>longitud | porcentaje</td>
+                  </tr>
+                  <tr>
+                      <td>letter-spacing</td>
+                      <td>Espacio entre caracteres</td>
+                      <td>normal | longitud</td>
+                  </tr>
+                  <tr>
+                      <td>word-spacing</td>
+                      <td>Espacio entre palabras</td>
+                      <td>normal | longitud</td>
+                  </tr>
+              </table>
+            
+            <h3>Fuentes</h3>
+              
+                 <p class="texto2">Son las que permiten controlar el tamaño, el tipo, el grosor o el estilo de las letras, entre otras cosas.</p>
+                
+                   <table border="1" class="propiedades_tablas">
+                     <tr class="celdas3">
+                         <td>Propiedad</td>
+                         <td>Descripción</td>
+                         <td>valores</td>
+                     </tr>
+                     <tr>
+                         <td>font-family</td>
+                         <td>Familias de fuentes</td>
+                         <td>nombre-familia|nombre-familia-genérica| *</td>
+                     </tr>
+                     <tr>
+                         <td>font-style</td>
+                         <td>Estilo de la fuente</td>
+                         <td>normal | italic | oblique</td>
+                     </tr>
+                     <tr>
+                         <td>font-size</td>
+                         <td>Tamaño de la fuente</td>
+                         <td>xx-small | x-small | small | medium | large | x-large | xx-large | larger | smaller | longitud | porcentaje</td>
+                     </tr>
+                     <tr>
+                         <td>font-variant</td>
+                         <td>Convierte a mayúsculas manteniendo un tamaño inferior</td>
+                         <td>normal | small-caps</td>
+                     </tr>
+                     <tr>
+                         <td>font-weight</td>
+                         <td>Anchura de los caracteres. Normal = 400, Negrita = 700</td>
+                         <td>normal | bold | bolder | lighter | 100 | 200 | 300 | 400 | 500 | 600 | 700 | 800 | 900</td>
+                     </tr>
+                   </table>
+                   
+            <h3>Colores y fondo</h3>
+              
+               <p class="texto2">Nos permite dar un color. Los valores de los colores se pueden definir mediante su nombre, en código hexadecimal o mediante sus valores en el formato: RGB</p>
+               
+               <table border="1" class="propiedades_tablas">
+                     <tr class="celdas3">
+                         <td>Propiedad</td>
+                         <td>Descripción</td>
+                         <td>valores</td>
+                     </tr>
+                     <tr>
+                         <td>color</td>
+                         <td>Color del texto</td>
+                         <td>Nombre:black | HEX:#000000 | RGB:0,0,0</td>
+                     </tr>
+                     <tr>
+                         <td>background-color</td>
+                         <td>Color de fondo</td>
+                         <td>Nombre:white | HEX:#FFFFFF | RGB:255,255,255</td>
+                     </tr>
+                     <tr>
+                         <td>background-image</td>
+                         <td>Imagen de fondo</td>
+                         <td>url(…) | none</td>
+                     </tr>
+                     <tr>
+                         <td>background-repeat</td>
+                         <td>Repetición de la imagen de fondo</td>
+                         <td>repeat | repeat-x | repeat-y | no-repeat</td>
+                     </tr>
+                     <tr>
+                         <td>background-attachment</td>
+                         <td>Desplazamiento de la imagen de fondo</td>
+                         <td>scroll | fixed</td>
+                     </tr>
+                     <tr>
+                         <td>background-position</td>
+                         <td>Posición de la imagen de fondo</td>
+                         <td>percentage | length | left | center | right</td>
+                     </tr>
+                     <tr>
+                         <td>background-size</td>
+                         <td>Tamaño de la imagen de fondo</td>
+                         <td>valor</td>
+                     </tr>
+               </table>
+               
+               <h3>Listas de contenido</h3>
+                 
+                  <p class="texto2">Son las que nos permiten controlar los estilos de los marcadores</p>
+                  
+                   <table border="1" class="propiedades_tablas">
+                     <tr class="celdas3">
+                         <td>Propiedad</td>
+                         <td>Descripción</td>
+                         <td>valores</td>
+                     <tr>
+                         <td>list-style-type</td>
+                         <td>Estilo aplicable a los marcadores visuales de las listas</td>
+                         <td>	disc | circle | square | decimal | none</td>
+                     </tr>
+                     <tr>
+                         <td>list-style-image</td>
+                         <td>Imagen aplicable a los elementos de las listas</td>
+                         <td>url(“…”) | none</td>	
+                     </tr>
+                     <tr>
+                         <td>list-style-position</td>
+                         <td>Posición dentro de la lista de los elementos marcadores de las listas</td>
+                         <td>inside | outside</td>
+                     </tr>
+                     <tr>
+                         <td>list-style</td>
+                         <td>Permite establecer el estilo de la lista, la imagen y/o la posición</td>
+                         <td>list-style-type | list-style-position | list-style-image</td>
+                     </tr>
+                </table>
+                  
+                <h3>Tablas de contenido</h3>
+                  
+                   <p class="texto2">Nos permite controlar el borde de la tabla.</p>
+                     
+                    <table border="1" class="propiedades_tablas">
+                     <tr class="celdas3">
+                         <td>Propiedad</td>
+                         <td>Descripción</td>
+                         <td>valores</td>
+                     </tr>  
+                     <tr>
+                         <td>border-collapse</td>
+                         <td>Selección del modelo de los bordes</td>		
+                         <td>collapse | separate</td>
+                     </tr>   
+                     <tr>
+                         <td>border-spacing</td>
+                         <td>Espaciado entre los bordes de celdas adyacentes</td>	
+                         <td>longitud</td>
+                     </tr>
+                     <tr>
+                         <td>caption-side</td>
+                         <td>Posición del título respecto la tabla</td>
+                         <td>top | bottom</td>
+                     </tr>
+                     <tr>
+                         <td>table-layout</td>
+                         <td>Formato de las celdas, filas y columnas</td>
+                         <td>auto | fixed</td>
+                     </tr>
+                     <tr>
+                         <td>empty-cells</td>
+                         <td>Visibilidad de los bordes de celdas sin contenido</td>
+                         <td>show | hide</td>
+                     </tr>
+                     
+                    </table>
+                    
+         </section>
+      
+      <section class="S6">  
+                <h2>
+         LISTADO DE PROPIEDADES CSS DIRIGIDAS A OBJETOS
+        </h2>
+                
                  <h3 class="mdc">Modelo de cajas</h3>
             
             <p class="texto2">Cualquier elemento incluido en un documento HTML dispone de una estructura tipo caja que se puede modificar usando las propiedades CSS. Las propiedades más importantes de las cajas o contenedores son las siguientes: margin, border y padding.
@@ -542,19 +730,13 @@
                       
                     
     </section> 
+    
     <section>
-        <h2>CÓMO CONECTAR UN CSS EN HTML</h2>
+        <h2>CONECTAR UN CSS EN HTML</h2>
         
           <p class="texto2">Para enlazar una hoja de estilo utilizamos la etiqueta &lt;link&gt; se coloca en la cabecera HEAD del documento. Se coloca el argumento  rel="stylesheet"  seguido del argumento  href="css/css.css  (carpeta donde se encuentra el documento/css.css) para una hoja de estilo en cascada. Esta etiqueta solo se apertura.</p>
           
     </section>
-      <section>
-
-                                </td>
-                          </section>
-                          
-                
-                    </section>
                     </table>
             </table>
              </ul>
@@ -562,9 +744,8 @@
         </section>
     </body>
 </html>
-                
-                    
-                          
+            
+                 
                     
                     
    
