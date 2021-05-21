@@ -101,7 +101,7 @@ section{
 /*-------------SECCIÓN 3*/
 .titulo_categoria{
     Font-size:17px;
-    color:#D8BFD8;
+    color:#182126;
 }
 .ls_tipo_etiqueta{
     color:black;
@@ -140,7 +140,7 @@ tr,td{
 }
 
 .celdas3{
-    background-color:#E6E6FA;
+    background-color:#D8BFD8;
     font-size: 25px;
     color: #FAFAFA;
     text-align: center;
@@ -169,3 +169,7 @@ tr,td{
     height: 350px;
     margin: 15px 0px 0px 275px;
 }
+
+
+
+
