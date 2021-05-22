@@ -15,20 +15,13 @@ header{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    
-    background-color: background-color: #f2aa52;
-    background-image: -webkit-linear-gradient(left, #f2aa52 0%, #f28a2e 36%, #d95204 66%, #8c2703 100%);
-    background-image: -o-linear-gradient(left, #f2aa52 0%, #f28a2e 36%, #d95204 66%, #8c2703 100%);
-    background-image: linear-gradient(to right, #f2aa52 0%, #f28a2e 36%, #d95204 66%, #8c2703 100%);
+    background-color: #FAACA8;
+background-image: linear-gradient(19deg, #FAACA8 0%, #DDD6F3 100%);
 
-
-    
 }
 
-
-
 .logo{
-    color: #fff;
+    color: #000000;
     margin: 5px;
     text-align: start;
 }
@@ -46,7 +39,7 @@ header{
 }
 
 .nav li{
-    color: #fff;
+    color:#000000;
 }
 
 .uno{
@@ -54,7 +47,7 @@ header{
     width: 100px;
     margin: 5px;
     text-align: center;
-    color: #fff;
+    color: #000000;
     padding: 7px 2px;
     border-radius: 5px;
     margin-top: 10px;

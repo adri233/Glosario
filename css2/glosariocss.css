@@ -80,7 +80,9 @@ section{
     
 }
 .tabla_tipo_etiquetas{
-    border: 1px solid black;
+    border: 1px solid;
+    background-color: #D8BFD8;
+ ;
 }
 .filaTitulo{
     background-color:#182126;
