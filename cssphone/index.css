@@ -1,0 +1,11 @@
+@media only screen and (max-width : 375px){
+ 
+    }
+
+ .banner_index{
+    min-height:1300px;
+    padding-top: 10px;
+    
+    background-image: url(../img2/imagenbanner.jpg);
+    background-size:cover;
+}
