@@ -1,11 +1,41 @@
-@media only screen and (max-width : 375px){
- 
-    }
 
  .banner_index{
-    min-height:1300px;
-    padding-top: 10px;
+    min-height:100px;
+    padding-top: 700px;
     
     background-image: url(../img2/imagenbanner.jpg);
     background-size:cover;
+}
+.leyenda{
+    text-align: center;
+    font-size: 50px;
+    color:#000000;
+}
+
+.btn_banner{
+    display: block;
+    width: 200px;
+    margin: auto;
+    text-align: center;
+    color:#000000;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 5px;
+    margin-top: 15px;
+    font-size: 30px;
+    
+
+    
+    transition: 0.3s;
+    background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+
+
+.btn_banner:hover{
+     list-style: none;
+    width:100px;
+    font-size:22px;
+    transition:0.3s;
+
 }
