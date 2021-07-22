@@ -2,7 +2,20 @@
     margin: 0px;
     padding: 0px;
 }
+header{
+    width: 100%;
+    height: 75px;
+    margin-bottom: 0px;
+    padding: 10px 50px 10px 50px;
+    box-sizing: border-box;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #FAACA8;
+background-image: linear-gradient(19deg, #FAACA8 0%, #DDD6F3 100%);
 
+}
 
 
 .logo{
