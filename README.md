@@ -9,6 +9,8 @@ src="https://jefuentes80.github.io/starup_scl/img/logo_SCL%20(3).png">
 - Diseño computarizado.
 
 - IV bachillerato en ciencias y Letras con orientacion en Diseño grafico.
+ 
+- Profesor Jossue Emanuel Fuentes
 
 # Objetivos
 - Comprender bien los temas 
