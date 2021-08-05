@@ -10,11 +10,14 @@
 
 # Objetivos
 *Comprender bien los temas 
+
 *Trabjar de buena forma los ejercicios para comprender los temas.
+
 *Prestra mas atencion.
 
 # Indice
 * Home page
 * Glosario Html
+
  https://adri233.github.io/Glosario/
 
