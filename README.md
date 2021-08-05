@@ -23,7 +23,10 @@ src="https://jefuentes80.github.io/starup_scl/img/logo_SCL%20(3).png">
 
 #Documentacion 
  https://adri233.github.io/Glosario/
-
+ 
 #Objetivos Futuros
+- Organizar mi tiempo al realizar los ejercicios.
+- Tener inspirazion en otras paginas web para mejorar mi trabajo.
+- El resultado de mi trabajo tenga buena presentacion y documentacion, y que me sriva de guia.
 
 
