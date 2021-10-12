@@ -22,6 +22,8 @@ src="https://jefuentes80.github.io/starup_scl/img/logo_SCL%20(3).png">
 # Indice
 * Home page
 * Glosario Html
+* Wireframe mediaDocument
+* Wireframe school
 
 # Documentacion 
  https://adri233.github.io/Glosario/
