@@ -25,6 +25,8 @@ src="https://jefuentes80.github.io/starup_scl/img/logo_SCL%20(3).png">
 
 # Documentacion 
  https://adri233.github.io/Glosario/
+ https://adri233.github.io/mediadocument/
+ https://github.com/adri233/school.Er
  
 # Objetivos Futuros
 - Organizar mi tiempo al realizar los ejercicios.
